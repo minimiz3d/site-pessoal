@@ -31,13 +31,15 @@
 
         <div class="box">
             <ul>
-                <li><a href="#" onclick="mostrarTexto(0)"><i class="fa fa-whatsapp"></i></a></li>
-                <li><a href="#" onclick="mostrarTexto(1)"><i class="fa fa-envelope"></i></a></li>
+                <li><a href="#" onclick="mostrarTexto(0)"><i class="fa fa-whatsapp" title="Vem de zap"></i></a></li>
+                <li><a href="#" onclick="mostrarTexto(1)" style="padding-left:25px"><i class="fa fa-envelope" title="Tá na mão o e-mail"></i></a></li>
             </ul>
 
-            <button class="btn btn-default botao" id="p-whats" style="display:none;" onclick="copiarTexto('#p-whats')"><a href="#" style="color:rgb(0, 255, 100)">55 996529772</a></button>
-            <button class="btn btn-default botao" id="p-email" style="display:none;" onclick="copiarTexto('#p-email')"><a href="#" style="color:rgb(0, 255, 100)">arthur-357@hotmail.com</a></button>
-            <p id="aviso-copiar" style="display:none; font-size:15px;">Clique acima para copiar</p>
+            <div class="icones" title="Clica aqui pra copiar!">
+                <button class="btn btn-default botao" id="p-whats" style="display:none;" onclick="copiarTexto('#p-whats')"><a href="#" style="color:rgb(0, 255, 100)">55 996529772</a></button>
+                <button class="btn btn-default botao" id="p-email" style="display:none;" onclick="copiarTexto('#p-email')"><a href="#" style="color:rgb(0, 255, 100)">arthur-357@hotmail.com</a></button>
+                <p id="aviso-copiar" style="display:none; font-size:15px;">Clique acima para copiar</p>
+            </div>
         </div>
 
         <script>
